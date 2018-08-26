@@ -1,5 +1,5 @@
 {
-  "name": "js-scaffold",
+  "name": "simple-js-scaffold",
   "version": "1.0.0",
   "description": "A simple JS scaffold to start the new project",
   "main": "index.js",
@@ -20,6 +20,6 @@
     "inquirer": "^6.2.0"
   },
   "bin": {
-    "generate": "./index.js"
+    "js-scaffold": "./index.js"
   }
 }

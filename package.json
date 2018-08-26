@@ -18,5 +18,8 @@
   "homepage": "https://github.com/luisliuchao/js-scaffold#readme",
   "dependencies": {
     "inquirer": "^6.2.0"
+  },
+  "bin": {
+    "generate": "./index.js"
   }
 }

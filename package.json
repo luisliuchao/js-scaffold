@@ -1,0 +1,19 @@
+{
+  "name": "js-scaffold",
+  "version": "1.0.0",
+  "description": "A simple JS scaffold to start the new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisliuchao/js-scaffold.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisliuchao/js-scaffold/issues"
+  },
+  "homepage": "https://github.com/luisliuchao/js-scaffold#readme"
+}

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/luisliuchao/js-scaffold/issues"
   },
-  "homepage": "https://github.com/luisliuchao/js-scaffold#readme"
+  "homepage": "https://github.com/luisliuchao/js-scaffold#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
 }

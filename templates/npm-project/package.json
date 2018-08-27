@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "calculator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "start": "bin/cli.js",
     "dev": "yarn test && webpack --mode development",
     "build": "yarn test && webpack --mode production",
-    "test": "mocha test/*.js --compilers js:babel-core/register"
+    "test": "mocha test/*.js --compilers js:babel-core/register",
+    "dummy": "yarn build && node dummy.js"
   },
   "repository": {
     "type": "git",

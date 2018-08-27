@@ -16,7 +16,7 @@ if (isProduction) {
 }
 
 const config = {
-  // entry: `${__dirname}/src/***.js`,
+  entry: `${__dirname}/src/Calculator.js`,
   target: 'node',
   devtool: isProduction ? false : 'source-map',
   output: {
@@ -25,7 +25,7 @@ const config = {
     library: libraryName,
     libraryTarget: 'umd',
     umdNamedDefine: true,
-    globalObject: 'this'
+    globalObject: 'this',
   },
   module: {
     rules: [
@@ -34,20 +34,20 @@ const config = {
         loader: 'babel-loader',
         exclude: /(node_modules|bower_components)/,
         options: {
-          presets: ['env']
-        }
+          presets: ['env'],
+        },
       },
       {
         test: /\.js$/i,
         loader: 'eslint-loader',
-        exclude: /node_modules/
-      }
-    ]
+        exclude: /node_modules/,
+      },
+    ],
   },
   resolve: {
     modules: [path.resolve('./node_modules'), path.resolve('./src')],
-    extensions: ['.json', '.js']
-  }
+    extensions: ['.json', '.js'],
+  },
 };
 
 module.exports = config;

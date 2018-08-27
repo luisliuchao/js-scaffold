@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/luisliuchao/js-scaffold#readme",
   "dependencies": {
-    "inquirer": "^6.2.0"
+    "inquirer": "^6.2.0",
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.13.0"
   },
   "bin": {
     "js-scaffold": "./index.js"
